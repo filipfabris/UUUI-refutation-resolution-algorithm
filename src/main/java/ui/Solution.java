@@ -34,7 +34,7 @@ public class Solution {
             throw new IllegalArgumentException( "Wrong arguments" );
         }
 
-//        clausePath = "test.txt";
+        clausePath = "test.txt";
 
         //Read premises
         List<String> input = Files.readAllLines( Path.of( clausePath ) );
